@@ -69,17 +69,16 @@ Contributions are welcome\! If you have suggestions for improvements, new featur
 5.  Push to the branch (`git push origin feature/your-feature-name`).
 6.  Open a Pull Request.
 
-## 📄 License
+<!-- ## 📄 License -->
 
-This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
+<!-- This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT). -->
 
 -----
 
 ## 📧 Contact
 
-Developed by [Your Name / Your GitHub Username]. Feel free to connect\!
+Developed by [Sulivando Lima / Antonio Lima]. Feel free to connect\!
 
-  * GitHub: [https://github.com/your-username](https://www.google.com/search?q=https://github.com/your-username)
-  * [Optional: LinkedIn, Portfolio, etc.]
+  * GitHub: [https://github.com/antonylima](https://www.google.com/search?q=https://github.com/antonylima)
 
 -----
