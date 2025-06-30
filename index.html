@@ -1,0 +1,136 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta lang="pt_br">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>VanCalc</title>
+		<link id="tema" rel="stylesheet" type="text/css" href="CSS/CSS.css">
+		<script type="text/javascript" src="JS/JS.js"></script>
+		<script type="text/javascript" src="JS/jq.js"></script>
+	</head>
+	<body>
+		<button id="cor" style="position:fixed; left:5px; top: 5px; background-color: blue;color: white;" onclick="mudartema()">change theme</button>
+		<div id="maindiv">
+			<div id="calculator">Calculator</div>
+			<div id="telas">
+				<div id="tela1" class="tela">
+					<output id="out1" class="out"></output>
+				</div>
+				<div id="tela2" class="tela">
+					<output id="out2" class="out"></output>
+				</div>
+			</div>
+
+			<div id="teclado">
+				<div id="operadores">
+					<button class="operador" value="+" id="mais" onclick="mostraNaTela(this.value)">+</button>
+					<button class="operador" value="-" id="menos" onclick="mostraNaTela(this.value)">-</button>
+					<button class="operador" value="*" id="vezes" onclick="mostraNaTela(this.value)">x</button>
+					<button class="operador" value="/" id="divid" onclick="mostraNaTela(this.value)">/</button>
+					<button class="operador" value="<" id="backspace" onclick="backspace()"><</button>
+					<button class="operador" value="C" id="limpar" onclick="limpar()">C</button>
+					<button class="operador" value="." id="ponto" onclick="mostraNaTela(this.value)">.</button>
+
+
+
+
+
+
+
+				</div>
+				<div class="numeros">
+					<button class="numero" value="1" id="um" onclick="mostraNaTela(this.value)">1</button>
+					<button class="numero" value="2" id="dois" onclick="mostraNaTela(this.value)">2</button>
+					<button class="numero" value="3" id="tres" onclick="mostraNaTela(this.value)">3</button>
+					<button class="numero" value="4" id="quatro" onclick="mostraNaTela(this.value)">4</button>
+					<button class="numero" value="5" id="cinco" onclick="mostraNaTela(this.value)">5</button>
+
+				</div>
+				<div class="numeros">
+					<button class="numero" value="6" onclick="mostraNaTela(this.value)">6</button>
+					<button class="numero" value="7" onclick="mostraNaTela(this.value)">7</button>
+					<button class="numero" value="8" onclick="mostraNaTela(this.value)">8</button>
+					<button class="numero" value="9" onclick="mostraNaTela(this.value)">9</button>
+					<button class="numero" value="0" onclick="mostraNaTela(this.value)">0</button>
+				</div>
+
+			</div>
+		</div>
+
+	<script type="text/javascript">
+		const out2 = document.getElementById('out2')
+		const out1 = document.getElementById('out1')
+		const limpa = document.getElementById('limar')
+		const tema = document.getElementById("tema")
+		const cor = document.getElementById("cor")
+		var estado = 1;
+
+		function mostraNaTela(digito) {
+				out2.value += digito
+				if(out2.value.substring(out2.value.length-1) != '+'
+				&& out2.value.substring(out2.value.length-1) != '-'
+				&& out2.value.substring(out2.value.length-1) != '*'
+				&& out2.value.substring(out2.value.length-1) != '/'){
+					out1.value = eval(out2.value)
+				}
+				else{
+					out1.value = eval(out2.value.substring(0,out2.value.length-1))
+				}
+				if(out1.value.length > 15){
+				out1.style.fontSize = '37px'
+				}
+				else {
+				out1.style.fontSize = '50px'
+				}
+
+			}
+
+		function backspace() {
+			out2.value = out2.value.substring(0,out2.value.length-1)
+			if(out2.value.substring(out2.value.length-1) != '+'
+				&& out2.value.substring(out2.value.length-1) != '-'
+				&& out2.value.substring(out2.value.length-1) != '*'
+				&& out2.value.substring(out2.value.length-1) != '/'){
+					out1.value = eval(out2.value)
+				}
+				else{
+					out1.value = eval(out2.value.substring(0,out2.value.length-1))
+				}
+			if(out2.value == ""){
+				out1.value = "";
+			}
+			if(out1.value.length > 15){
+			out1.style.fontSize = '37px'
+			}
+			else {
+			out1.style.fontSize = '50px'
+			}
+
+			}
+
+
+			function limpar(){
+				out2.value = ""
+				out1.value = ""
+			}
+
+		function mudartema(){
+			if(estado == 1){
+				tema.href = "CSS/CSS2.css"
+				estado = 2
+				cor.style.backgroundColor = "orangered"
+			}
+			else{
+				tema.href = "CSS/CSS.css"
+				estado = 1
+				cor.style.backgroundColor = "blue"
+			}
+		}
+
+
+	</script>
+
+
+	</body>
+	</html>
