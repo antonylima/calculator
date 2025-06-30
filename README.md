@@ -1,1 +1,1 @@
-A simple and beaultiful Calculator
+A simple and beautiful Calculator
