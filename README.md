@@ -2,10 +2,10 @@
 
 **A simple, web-based calculator built with HTML, CSS, and JavaScript.**
 
-VanCalc is a straightforward and intuitive calculator designed for everyday arithmetic. It's a prime example of how foundational web technologies can come together to create a functional and user-friendly application directly in your browser. Whether you need to quickly crunch some numbers or are exploring basic front-end development, VanCalc offers a clean interface and reliable performance.
+VanCalc is a straightforward https://github.com/antonylima/calculator.gitand intuitive calculator designed for everyday arithmetic. It's a prime example of how foundationaTl web technologies can come together to create a functional and user-friendly application directly in your browser. Whether you need to quickly crunch some numbers or are exploring basic front-end development, VanCalc offers a clean interface and reliable performance.
 
 ## 🚀 Features
-
+https://github.com/antonylima/calculator.git
   * **Basic Arithmetic Operations:** Perform addition (`+`), subtraction (`-`), multiplication (`x`), and division (`/`).
   * **Clear Functionality (`C`):** Easily wipe the display and start a new calculation.
   * **Backspace (`<`):** Correct input errors by deleting the last character.
@@ -17,7 +17,7 @@ VanCalc is a straightforward and intuitive calculator designed for everyday arit
 
   * **HTML5:** For structuring the calculator interface.
   * **CSS3:** For styling the calculator's layout, appearance, and responsiveness.
-  * **JavaScript (ES6+):** For implementing the calculator's core logic, handling user interactions, and performing calculations.
+  * **JavaScript:** For implementing the calculator's core logic, handling user interactions, and performing calculations.
 
 ## 💻 How to Use
 
@@ -58,7 +58,7 @@ To run VanCalc on your local machine, follow these simple steps:
 
 *VanCalc showcasing an alternative theme.*
 
-## 🤝 Contributing
+<!--## 🤝 Contributing
 
 Contributions are welcome\! If you have suggestions for improvements, new features, or bug fixes, please feel free to:
 
@@ -67,7 +67,7 @@ Contributions are welcome\! If you have suggestions for improvements, new featur
 3.  Make your changes.
 4.  Commit your changes (`git commit -m 'Add new feature'`).
 5.  Push to the branch (`git push origin feature/your-feature-name`).
-6.  Open a Pull Request.
+6.  Open a Pull Request. -->
 
 <!-- ## 📄 License -->
 
