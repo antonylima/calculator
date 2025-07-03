@@ -155,12 +155,48 @@ body{
 		color: orange;
 	}
 
-	
-/*@media screen and (min-width:768px){
+.ponto{
+display: flex;
+justify-content: center;
+align-content:start;
+}	
+
+@media screen and (orientation:landscape){
 #maindiv{
-		width: 600px;
-		height: 500px;}
-#calculator{
-		width: 600px;
-		letter-spacing: 10px;}
+		width: 45vw;
+		height: 80vh;
+}
+.numero{
+	font-size: 40px;
+	padding: 0;
+	height: fit-content;
+}
+#title{
+display: none;
+
+}
+}
+
+
+@media screen and (min-height:300px) and (orientation:landscape){
+	#title{
+		display: block;
+		margin-top: 1vh;
+		font-size: 3em;
+	}
+	#maindiv{
+		margin-top: 2vh;
+	}
+}
+
+@media screen and (min-height:500px) and (orientation:landscape){
+	#title{
+		display: block;
+		font-size: 5em;
+		top: -10vh;
+		margin-bottom: 1vh;
+	}
+	#maindiv{
+	
+	}
 }
