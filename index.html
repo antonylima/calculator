@@ -1,40 +1,36 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-	<meta lang="pt_br">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>VanCalc</title>
-	<link id="tema" rel="stylesheet" type="text/css" href="assets/CSS/style.css">
-</head>
-
-<body>
-	<button id="cor" style="position:fixed; left:5px; top: 5px; background-color: blue;color: white;"
-		onclick="mudartema()">change theme</button>
-	<div id="maindiv">
-		<div id="title">Calculator</div>
-		<div id="telas">
-			<div id="tela1" class="tela">
-				<output id="out1" class="out"></output>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta lang="pt_br">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>VanCalc</title>
+		<link id="tema" rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+	</head>
+	<body>
+		<button id="cor" style="position:fixed; left:5px; top: 5px; background-color: blue;color: white;" onclick="mudartema()">change theme</button>
+		<div id="maindiv">
+			<div id="title">Calculator</div>
+			<div id="telas">
+				<div id="tela1" class="tela">
+					<output id="out1" class="out"></output>
+				</div>
+				<div id="tela2" class="tela">
+					<output id="out2" class="out"></output>
+				</div>
 			</div>
-			<div id="tela2" class="tela">
-				<output id="out2" class="out"></output>
-			</div>
-		</div>
-		<div id="teclado">
-			<div id="operadores">
-				<button class="operador" value="+" id="+" onclick="mostraNaTela(this.value)">+</button>
-				<button class="operador" value="-" id="-" onclick="mostraNaTela(this.value)">-</button>
-				<button class="operador" value="*" id="*" onclick="mostraNaTela(this.value)">x</button>
-				<button class="operador" value="/" id="/" onclick="mostraNaTela(this.value)">/</button>
-				<button class="operador" value="Backspace" id="Backspace" onclick="backspace()">
-					<< /button>
-						<button class="operador" value="Delete" id="Delete" onclick="limpar()">C</button>
-						<button class="operador ponto" value="." id="." onclick="mostraNaTela(this.value)">.</button>
-			</div>
-			<div id="numeros">
-				<div id="numeros1">
+			<div id="teclado">
+				<div id="operadores">
+					<button class="operador" value="+" id="+" onclick="mostraNaTela(this.value)">+</button>
+					<button class="operador" value="-" id="-" onclick="mostraNaTela(this.value)">-</button>
+					<button class="operador" value="*" id="*" onclick="mostraNaTela(this.value)">x</button>
+					<button class="operador" value="/" id="/" onclick="mostraNaTela(this.value)">/</button>
+					<button class="operador" value="Backspace" id="Backspace" onclick="backspace()"><</button>
+					<button class="operador" value="Delete" id="Delete" onclick="limpar()">C</button>
+					<button class="operador ponto" value="." id="." onclick="mostraNaTela(this.value)">.</button>
+				</div>
+				<div id="numeros">
+					<div id="numeros1">
 					<button class="numero" value="1" id="1" onclick="mostraNaTela(this.value)">1</button>
 					<button class="numero" value="2" id="2" onclick="mostraNaTela(this.value)">2</button>
 					<button class="numero" value="3" id="3" onclick="mostraNaTela(this.value)">3</button>
@@ -48,10 +44,9 @@
 					<button class="numero" value="9" id="9" onclick="mostraNaTela(this.value)">9</button>
 					<button class="numero" value="0" id="0" onclick="mostraNaTela(this.value)">0</button>
 				</div>
+				</div>
 			</div>
 		</div>
-	</div>
-	<script src="assets/JS/script.js"></script>
-</body>
-
-</html>
+		<script src="assets/JS/script.js"></script>
+	</body>
+	</html>
