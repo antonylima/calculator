@@ -62,15 +62,15 @@ body{
 		font-family: sans-serif;
 		overflow: hidden;
 		box-sizing: border-box;
-		text-align: center;
+
 
 	}
 
 	#out1{
 		font-size: 40px;
 		color: darkorange;
-		line-height: 50px;
 	}
+
 	#out2{
 		font-size: 45px;
 		color: orange;
@@ -176,6 +176,13 @@ display: none;
 }
 
 
+@media screen and (min-height:300px){
+	.out{
+		line-height: 130%;
+	}
+
+}
+
 @media screen and (min-height:300px) and (orientation:landscape){
 	#title{
 		display: block;
@@ -192,9 +199,6 @@ display: none;
 		display: block;
 		font-size: 5em;
 		top: -6vh;
-	}
-	#maindiv{
-	
 	}
 
 	.operador{
