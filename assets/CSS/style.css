@@ -1,207 +1,218 @@
-body{
-		background-image: linear-gradient(to left,red, orange, red);
-	}
+body {
+	background-image: linear-gradient(to left, red, orange, red);
+}
 
-	#title{
-		position: relative;
-		width: 100%;
-		height: 7vh;
-		font-size: 50px;
-		font-family: monospace;
-		text-align: center;
-		bottom: 1vh;
-		color: brown;
-	}
+#title {
+	position: relative;
+	width: 100%;
+	height: 7vh;
+	font-size: 50px;
+	font-family: monospace;
+	text-align: center;
+	bottom: 1vh;
+	color: brown;
+}
 
-	#maindiv{
-		text-align: center;
-		position: absolute;
-		left: 50%;
-		top: 50%;
-		width: 95vw;
-		height: 45vh;
-		box-sizing: border-box;
-		transform: translate(-50%, -50%);
-	}
+#maindiv {
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 95vw;
+	height: 45vh;
+	box-sizing: border-box;
+	transform: translate(-50%, -50%);
+}
 
-	#telas{
-		width: 100%;
-		border-radius: 20px;
-		margin: 0 2px 0 2px;
-		height: 30%;
-		background-color: rgba(0, 0, 0, 0.5);
-		box-sizing: border-box;
-		text-align: center;
-	}
-
-
-	.tela{
-		width: 100%;
-		box-sizing: border-box;
-		padding: 0 20px 0 20px;
-	}
-
-	#tela1{
-		width: 100%;
-		height: 53%;
-		border-bottom: inset gold 3px;
-		overflow-y: hidden ;
-		overflow-x: auto ;
-	}
-
-	#tela2{
-		width: 100%;
-		height: 48%;
-		overflow: hidden;
-		text-overflow: ellipsis;
-	}
-
-	.out{
-		width: 100%;
-		height: 100%;
-		font-family: sans-serif;
-		overflow: hidden;
-		box-sizing: border-box;
+#telas {
+	width: 100%;
+	border-radius: 20px;
+	margin: 0 2px 0 2px;
+	height: 30%;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-sizing: border-box;
+	text-align: center;
+}
 
 
-	}
+.tela {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0 20px 0 20px;
+}
 
-	#out1{
-		font-size: 40px;
-		color: darkorange;
-	}
+#tela1 {
+	width: 100%;
+	height: 53%;
+	border-bottom: inset gold 3px;
+	overflow-y: hidden;
+	overflow-x: auto;
+}
 
-	#out2{
-		font-size: 45px;
-		color: orange;
-	}
+#tela2 {
+	width: 100%;
+	height: 48%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
 
-	/*.logo{
+.out {
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	overflow: hidden;
+	box-sizing: border-box;
+
+
+}
+
+#out1 {
+	font-size: 40px;
+	color: darkorange;
+}
+
+#out2 {
+	font-size: 45px;
+	color: orange;
+}
+
+/*.logo{
 		width: 19%;
 		height: 100%;
 		background-image: url("../IMG/logo.webp");
 		border-radius: 20px;
 	}*/
 
-	#teclado{
-		width: 100%;
-		height: 70%;
-		margin-top: 1%;
-		display: flex;
-		flex-direction: column;
-		padding: 0;
-	}
+#teclado {
+	width: 100%;
+	height: 70%;
+	margin-top: 1%;
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
 
-	#operadores{
-		width: 100%;
-		height: 30%;
-		display: flex;
-		justify-content: space-between;
-		padding: 0;
-	}
+#operadores {
+	width: 100%;
+	height: 30%;
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
 
-	#numeros{
-		padding: 0;
-		width: 100;
-		height: 30%;
-		display: flex;
-		flex-direction:column;
-	}
+#numeros {
+	padding: 0;
+	width: 100;
+	height: 30%;
+	display: flex;
+	flex-direction: column;
+}
 
-	.operador{
-		width:14%;
-		height:100%;;
-		text-align: center;
-		line-height: 55px;
-		font-size: 40px;
-		border-radius: 20px;
-		font-family: monospace;
-		background-color: rgba(0, 0, 0, 0.3);
-		color: mediumaquamarine;
-	}
+.operador {
+	width: 14%;
+	height: 100%;
+	;
+	text-align: center;
+	line-height: 55px;
+	font-size: 40px;
+	border-radius: 20px;
+	font-family: monospace;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: mediumaquamarine;
+}
 
-	#numeros1, #numeros2{
-		width: 100%;
-		padding: 0;
-		display: flex;
-		justify-content:space-between;
-		margin-top: 0.5%;
-	}
+#numeros1,
+#numeros2 {
+	width: 100%;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0.5%;
+}
 
-	.numero{
-		width:19.5%;
-		height:100%;
-		text-align: center;
-		line-height: 70px;
-		font-size: 50px;
-		border-radius: 20px;
-		font-family: monospace;
-		background-color: rgba(0, 0, 0, 0.3);
-		color: springgreen;
-	}
+.numero {
+	width: 19.5%;
+	height: 100%;
+	text-align: center;
+	line-height: 70px;
+	font-size: 50px;
+	border-radius: 20px;
+	font-family: monospace;
+	background-color: rgba(0, 0, 0, 0.3);
+	color: springgreen;
+}
 
-	.numero:hover, .operador:hover{
-		opacity: 0.7;
-		cursor: default;
-	}
+.numero:hover,
+.operador:hover {
+	opacity: 0.7;
+	cursor: default;
+}
 
-	.numero:active, .operador:active{
-		color: blanchedalmond;
-		opacity: 1.0;
-	}
+.numero:active,
+.operador:active {
+	color: blanchedalmond;
+	opacity: 1.0;
+}
 
-	#Delete, #Backspace{
-		background-color: blanchedalmond;
-		color: orange;
-	}
+#Delete,
+#Backspace {
+	background-color: blanchedalmond;
+	color: orange;
+}
 
-.ponto{
+.ponto {}
 
-}	
-
-@media screen and (orientation:landscape){
-#maindiv{
+@media screen and (orientation:landscape) {
+	#maindiv {
 		width: 45vw;
 		height: 80vh;
-}
-.numero{
-	font-size: 40px;
-	padding: 0;
-	height: fit-content;
-}
-#title{
-display: none;
+	}
 
-}
+	.numero {
+		font-size: 40px;
+		padding: 0;
+		height: fit-content;
+	}
+
+	#title {
+		display: none;
+
+	}
 }
 
 
-@media screen and (min-height:300px){
-	.out{
+@media screen and (min-height:300px) {
+	.out {
 		line-height: 130%;
 	}
 
 }
 
-@media screen and (min-height:300px) and (orientation:landscape){
-	#title{
+@media screen and (min-height:300px) and (orientation:landscape) {
+	#title {
 		display: block;
 		margin-top: 1vh;
 		font-size: 3em;
 	}
-	#maindiv{
+
+	#maindiv {
 		margin-top: 2vh;
+	}
+
+	.operador,
+	.numero {
+		font-size: 4em;
 	}
 }
 
-@media screen and (min-height:500px) and (orientation:landscape){
-	#title{
+@media screen and (min-height:500px) and (orientation:landscape) {
+	#title {
 		display: block;
 		font-size: 5em;
-		top: -6vh;
+		top: -8vh;
 	}
 
-	.operador{
-		font-size: 4em;
+	.out {
+		line-height: 170%;
 	}
 }
