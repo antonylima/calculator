@@ -156,9 +156,7 @@ body{
 	}
 
 .ponto{
-display: flex;
-justify-content: center;
-align-content:start;
+
 }	
 
 @media screen and (orientation:landscape){
@@ -193,10 +191,13 @@ display: none;
 	#title{
 		display: block;
 		font-size: 5em;
-		top: -10vh;
-		margin-bottom: 1vh;
+		top: -6vh;
 	}
 	#maindiv{
 	
+	}
+
+	.operador{
+		font-size: 4em;
 	}
 }
