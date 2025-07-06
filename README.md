@@ -2,7 +2,7 @@
 
 **A simple, web-based calculator built with HTML, CSS, and JavaScript.**
 
-VanCalc is a straightforward https://github.com/antonylima/calculator.gitand intuitive calculator designed for everyday arithmetic. It's a prime example of how foundationaTl web technologies can come together to create a functional and user-friendly application directly in your browser. Whether you need to quickly crunch some numbers or are exploring basic front-end development, VanCalc offers a clean interface and reliable performance.
+VanCalc is a straightforward https://github.com/antonylima/calculator.git and intuitive calculator designed for everyday arithmetic. It's a prime example of how foundationaTl web technologies can come together to create a functional and user-friendly application directly in your browser. Whether you need to quickly crunch some numbers or are exploring basic front-end development, VanCalc offers a clean interface and reliable performance.
 
 ## 🚀 Features
 https://github.com/antonylima/calculator.git
