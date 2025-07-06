@@ -52,7 +52,7 @@ To run VanCalc on your local machine, follow these simple steps:
 
 ## 📸 Screenshots
 
-![](https://images.icon-icons.com/272/PNG/512/Calculator_30001.png)
+![](assets/IMG/calc.png)
 
 *A view of VanCalc with its default theme.*
 
