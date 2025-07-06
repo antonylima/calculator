@@ -1,7 +1,8 @@
 const out2 = document.getElementById('out2')
 const out1 = document.getElementById('out1')
 const tema = document.getElementById("tema")
-const cor = document.getElementById("cor")
+const cor = document.getElementById("cor").style
+const b = document.body.style;
 var estado = 1;
 
 function operation() {
@@ -80,16 +81,16 @@ function limpar() {
 
 function mudartema() {
     if (estado == 1) {
-        document.body.style.backgroundImage = "linear-gradient(to left,blue, green, blue)";
+        b.backgroundImage = "linear-gradient(to left,blue, green, blue)";
         title.style.color = "gold"
         estado = 2
-        cor.style.backgroundColor = "orangered"
+        cor.backgroundColor = "orangered"
     }
     else {
-        document.body.style.backgroundImage = "linear-gradient(to left,red, orange, red)"
+        b.backgroundImage = "linear-gradient(to left,red, orange, red)"
         title.style.color = "brown"
         estado = 1
-        cor.style.backgroundColor = "blue"
+        cor.backgroundColor = "blue"
     }
 }
 

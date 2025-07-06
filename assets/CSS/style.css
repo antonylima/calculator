@@ -76,13 +76,6 @@ body {
 	color: orange;
 }
 
-/*.logo{
-		width: 19%;
-		height: 100%;
-		background-image: url("../IMG/logo.webp");
-		border-radius: 20px;
-	}*/
-
 #teclado {
 	width: 100%;
 	height: 70%;
@@ -160,7 +153,6 @@ body {
 	color: orange;
 }
 
-.ponto {}
 
 @media screen and (orientation:landscape) {
 	#maindiv {
