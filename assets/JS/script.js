@@ -28,13 +28,6 @@ function operation() {
             }
         }
     }
-
-    if (out1.value.length > 15) {
-        out1.style.fontSize = '37px'
-    }
-    else {
-        out1.style.fontSize = '50px'
-    }
 }
 
 
@@ -81,14 +74,14 @@ function limpar() {
 
 function mudartema() {
     if (estado == 1) {
-        b.backgroundImage = "linear-gradient(to left,blue, green, blue)";
+        b.backgroundImage = "linear-gradient(to left,royalblue, blue, royalblue)";
         title.style.color = "gold"
         estado = 2
         cor.backgroundColor = "orangered"
     }
     else {
-        b.backgroundImage = "linear-gradient(to left,red, orange, red)"
-        title.style.color = "brown"
+        b.backgroundImage = "linear-gradient(to left, orangered, red, orangered)"
+        title.style.color = "whitesmoke"
         estado = 1
         cor.backgroundColor = "blue"
     }

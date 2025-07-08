@@ -1,34 +1,31 @@
 body {
-	background-image: linear-gradient(to left, red, orange, red);
+	background-image: linear-gradient(to left, orangered, red, orangered);
+	font-size: 1em;
 }
 
 #title {
 	position: relative;
 	width: 100%;
-	height: 7vh;
-	font-size: 50px;
+	font-size: 2em;
 	font-family: monospace;
 	text-align: center;
-	bottom: 1vh;
-	color: brown;
+	color:whitesmoke;
 }
 
 #maindiv {
 	text-align: center;
 	position: absolute;
-	left: 50%;
-	top: 50%;
-	width: 95vw;
-	height: 45vh;
+	left: 1%;
+	top: 10vh;
+	width: 98%;
+	height: 100vh;
 	box-sizing: border-box;
-	transform: translate(-50%, -50%);
 }
 
 #telas {
 	width: 100%;
 	border-radius: 20px;
-	margin: 0 2px 0 2px;
-	height: 30%;
+	height: 20%;
 	background-color: rgba(0, 0, 0, 0.5);
 	box-sizing: border-box;
 	text-align: center;
@@ -38,12 +35,13 @@ body {
 .tela {
 	width: 100%;
 	box-sizing: border-box;
-	padding: 0 20px 0 20px;
+	font-size: 1.8em;
+
 }
 
 #tela1 {
 	width: 100%;
-	height: 53%;
+	height: 52%;
 	border-bottom: inset gold 3px;
 	overflow-y: hidden;
 	overflow-x: auto;
@@ -67,12 +65,11 @@ body {
 }
 
 #out1 {
-	font-size: 40px;
 	color: darkorange;
+	
 }
 
 #out2 {
-	font-size: 45px;
 	color: orange;
 }
 
@@ -82,15 +79,14 @@ body {
 	margin-top: 1%;
 	display: flex;
 	flex-direction: column;
-	padding: 0;
+
 }
 
 #operadores {
 	width: 100%;
-	height: 30%;
+	height: fit-content;
 	display: flex;
 	justify-content: space-between;
-	padding: 0;
 }
 
 #numeros {
@@ -104,10 +100,8 @@ body {
 .operador {
 	width: 14%;
 	height: 100%;
-	;
 	text-align: center;
-	line-height: 55px;
-	font-size: 40px;
+	font-size: 2em;
 	border-radius: 20px;
 	font-family: monospace;
 	background-color: rgba(0, 0, 0, 0.3);
@@ -125,10 +119,9 @@ body {
 
 .numero {
 	width: 19.5%;
-	height: 100%;
+	height: fit-content;
 	text-align: center;
-	line-height: 70px;
-	font-size: 50px;
+	font-size: 2em;
 	border-radius: 20px;
 	font-family: monospace;
 	background-color: rgba(0, 0, 0, 0.3);
@@ -153,58 +146,129 @@ body {
 	color: orange;
 }
 
-
-@media screen and (orientation:landscape) {
-	#maindiv {
-		width: 45vw;
-		height: 80vh;
-	}
-
-	.numero {
-		font-size: 40px;
-		padding: 0;
-		height: fit-content;
-	}
-
+@media screen and (min-width:320px) {
 	#title {
-		display: none;
+		font-size: 3.5em;
+	}
+	
+	#maindiv {
+		top: 5vh;
+	}
+	
+	#telas {
+		height: 15%;
+	}
+
+	.tela {
+		font-size: 2.3em;
 
 	}
-}
 
-
-@media screen and (min-height:300px) {
 	.out {
-		line-height: 130%;
+		line-height: 50%;
 	}
 
-}
-
-@media screen and (min-height:300px) and (orientation:landscape) {
-	#title {
-		display: block;
-		margin-top: 1vh;
-		font-size: 3em;
-	}
-
-	#maindiv {
-		margin-top: 2vh;
-	}
-
-	.operador,
-	.numero {
+	.numero, .operador {
 		font-size: 4em;
 	}
+
+
 }
 
-@media screen and (min-height:500px) and (orientation:landscape) {
-	#title {
-		display: block;
-		font-size: 5em;
-		top: -8vh;
+
+@media screen and (min-width:360px) {
+	.tela {
+		font-size: 3em;
+
 	}
 
 	.out {
-		line-height: 170%;
+		line-height: 100%;
+	}
+
+
+}
+
+
+@media screen and (min-width:384px) {
+	.tela {
+		font-size: 3.5em;
+
+	}
+
+	.out {
+		line-height: 100%;
+	}
+}
+
+
+
+@media screen and (min-width:414px) {
+	.tela {
+		font-size: 4em;
+
+	}
+}
+
+
+
+@media screen and (min-width:414px) {
+	.tela {
+		font-size: 4em;
+
+	}
+}
+
+
+
+@media screen and (orientation: landscape){
+	#telas {
+		height: 30%;
+	}
+	
+}
+
+@media screen and (orientation: landscape) and (min-width: 320px) {
+	#maindiv {
+		margin-top: 0;
+		width: 40%;
+		height: 100%;
+		margin-left: 50%;
+		transform: translateX(-50%);
+	}
+	#title {
+		display: none;
+	}
+
+	.tela {
+		font-size: 2.5em;
+
+	}
+	.numero, .operador {
+		font-size: 3.5em;
+	}
+	
+}
+
+
+@media screen and (orientation: landscape) and (min-width: 890px) {
+	
+	#title {
+		display: block;
+	}
+
+	.tela {
+		font-size: 3.5em;
+	}
+}
+
+
+@media screen and (orientation: landscape) and (min-width: 1024px) {
+
+	.tela {
+		font-size: 4.5em;
+	}
+	#telas {
+		height: 28%;
 	}
 }
