@@ -24,7 +24,11 @@ function operation() {
             ) {
                 out1.value = 0
             } else {
-                out1.value = eval(out2.value.substring(0, out2.value.length - 1))
+                out1.value = eval(out2.value.substring(0, out2.value.length - 1)).toLocaleString("pt-BR",
+            {style: 'decimal',
+                minimumFractionDigits: 2,
+                maximumFractionDigits: 2
+            })
             }
         }
     }
