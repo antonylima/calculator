@@ -14,11 +14,7 @@ function operation() {
         && out2.value.substring(out2.value.length - 2) != '0.'
     ) {
         if (out2.value !== "") {
-            out1.value = eval(out2.value).toLocaleString("pt-BR",
-            {style: 'decimal',
-                minimumFractionDigits: 2,
-                maximumFractionDigits: 2
-            })
+            out1.value = eval(out2.value).toLocaleString()
         }
     } else {
 
@@ -28,11 +24,7 @@ function operation() {
             ) {
                 out1.value = 0
             } else {
-                out1.value = eval(out2.value.substring(0, out2.value.length - 1)).toLocaleString("pt-BR",
-            {style: 'decimal',
-                minimumFractionDigits: 2,
-                maximumFractionDigits: 2
-            })
+                out1.value = eval(out2.value.substring(0, out2.value.length - 1)).toLocaleString()
             }
         }
     }
