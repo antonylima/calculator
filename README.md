@@ -79,6 +79,6 @@ Contributions are welcome\! If you have suggestions for improvements, new featur
 
 Developed by [Sulivando Lima / Antonio Lima]. Feel free to connect\!
 
-  * GitHub: [https://github.com/antonylima](https://www.google.com/search?q=https://github.com/antonylima)
+  * GitHub: [https://github.com/antonylima](https://www.google.com/search?q=sulivando.com)
 
 -----
