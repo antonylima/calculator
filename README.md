@@ -77,8 +77,8 @@ Contributions are welcome\! If you have suggestions for improvements, new featur
 
 ## 📧 Contact
 
-Developed by [Sulivando Lima / Antonio Lima]. Feel free to connect\!
+Developed by [Sulivando Lima]. Feel free to connect\!
 
-  * Sulivando: [https://sulivando.com.br](https:/sulivando.com.br)
+  * Sulivando: [https://sulivando.com.br](https://sulivando.com.br)
 
 -----
